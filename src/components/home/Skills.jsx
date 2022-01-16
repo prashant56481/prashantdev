@@ -11,7 +11,7 @@ function Skills({ heading, hardSkills, softSkills }) {
   const [isScrolled, setIsScrolled] = React.useState(false);
 
   useScrollPosition(
-    ({ prevPos, currPos }) => {
+    ({  currPos }) => {
       if (!isScrolled && currPos.y - 400 < 0) setIsScrolled(true);
     },
     [],
