@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Prashant",
   middleName: "",
   lastName: "Dwivedi",
-  message: " Passionate about using tech to increase social impact. ",
+  message: " Developer | Learner | Traveller  ",
   icons: [
     {
       image: "fa-github",
@@ -37,8 +37,8 @@ const about = {
   imageSize: 375,
   message:{
     Intro: "I'm A Responsible and committed Software Engineer with high-quality product spirit and with experience of programming, development and testing in below areas: ",
-    Lang : "Programming :  C++, Java, JavaScript, Python ",
-    Tool : "Tools And Technologies : NodeJs, Reactjs, Spring , Spring Boot, Firebase, Flutter, Git; Database: SQL, FireStore."
+    Lang : "Programming Interest :  C++, Java, TypeScript ",
+    Tool : "Tools And Technologies : Java Mircoservices, AWS, NodeJs, Git; Database: SQl, DynamoDb, FireStore."
   },
   resume: "https://drive.google.com/file/d/1B3ROVo4jAXEQ3g66Jf1DjCUOi_7ctZ_7/view?usp=sharing"
 };
@@ -110,14 +110,15 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "C++", value: 85 },
+    { name: "C++", value: 70 },
     { name: "Java", value: 70 },
-    { name: "HTML", value: 70 },
-    { name: "CSS", value: 50 },
+    { name: "AWS", value: 30 },
     { name: "Git", value: 65 },
     { name: "Node.js", value: 20 },
-    { name: "JavaScript", value: 65 },
+    { name: "JavaScript/TypeScript", value: 65 },
     { name: "Spring", value: 10 },
+    { name: "HTML", value: 70 },
+    { name: "CSS", value: 50 },
   ],
   softSkills: [
     { name: "Problem Solving", value: 90 },

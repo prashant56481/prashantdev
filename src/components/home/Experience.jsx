@@ -1,4 +1,5 @@
 import React from "react";
+import Amazon from "../../editable-stuff/amazon.png"
 import Wipro from "../../editable-stuff/wipro.png";
 import Kohbee from "../../editable-stuff/kohbee.png"
 const divStyle = {
@@ -18,6 +19,32 @@ return (
                 <div className="col text-center" >
                     <img
                         // className="border border-secondary rounded-circle"
+                        src={Amazon}
+                        alt="Amazon"
+                        width="280"
+                        height="170"
+                    />
+                    <br/>
+                    <br/>
+                    <p className="lead text-center" style={{fontSize:'22px'}}>
+                            Amazon | Software Developer  
+                        <br/>
+                        May 2022 - Current
+                    </p>
+                    <br/>
+                    <p className="lead text-center" style={{fontSize:'22px'}}>
+                        Job Role <p className="lead text-left">
+                                    Working as a Software Developemnet Engineer 1, Orchestration Team.
+                                    </p>
+                        Tech Stack  <p>
+                                    Java, AWS, Docker, TypeScript etc.
+                                    </p>
+                    </p>
+                    {/* <h3>Dell Technologies</h3> */}
+                </div>
+                <div className="col text-center" >
+                    <img
+                        // className="border border-secondary rounded-circle"
                         src={Wipro}
                         alt="Wipro technologies logo"
                         width="280"
@@ -28,14 +55,12 @@ return (
                     <p className="lead text-center" style={{fontSize:'22px'}}>
                         Wipro Tech. | Project Engineer  
                         <br/>
-                        June 2021 - Current
+                        June 2021 - April 2022
                     </p>
                     <br/>
                     <p className="lead text-center" style={{fontSize:'22px'}}>
                         Job Role <p className="lead text-left">
-                                    Analyzing and Upgrading ”Consumer Online” Application from Java 8 to Java
-                                    11 and making it Release ready. This Application is used by Consumers for
-                                    buying Health Insurance on AVIVA.
+                                    Worked on Upgrading and Migrating Various Apllication and Microservices.
                                     </p>
                         Tech Stack  <p>
                                     Java, Spring Boot, JBoss Server, Struts, JSP, Jenkins, Git, Sonar Cube.
