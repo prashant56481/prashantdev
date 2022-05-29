@@ -22,7 +22,7 @@ const ProjectCard = ({ value }) => {
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
           <Card.Text>{description || <Skeleton count={3} />} </Card.Text>
           {svn_url ? (
-            <CardButtons svn_url={svn_url} homepage={homepage} />
+            <CardButtons svn_url={svn_url} homepage={"https://github.com/prashant56481"} />
           ) : (
             <Skeleton count={2} />
           )}
@@ -58,14 +58,14 @@ const CardButtons = ({ svn_url, homepage }) => {
       </a>
       <a
         href={svn_url}
-        target=" _blank"
+        target="_blank"
         className="btn btn-outline-secondary mr-3"
       >
         <i className="fab fa-github" /> Repo
       </a>
       <a
         href={homepage}
-        target=" _blank"
+        target="_blank"
         className="btn btn-outline-secondary mr-3"
       >
         <i className="fab fa-github" /> Homepage
